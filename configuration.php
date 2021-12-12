@@ -4,7 +4,7 @@ class JConfig {
 	public $offline_message = 'This site is down for maintenance.<br /> Please check back again soon.';
 	public $display_offline_message = '1';
 	public $offline_image = '';
-	public $sitename = 'Hashing.Company';
+	public $sitename = 'SK INNOVATIONS';
 	public $editor = 'tinymce';
 	public $captcha = '0';
 	public $list_limit = '20';
@@ -16,14 +16,14 @@ class JConfig {
 	public $user = 'root';
 	public $password = '';
 	public $db = 'test';
-	public $dbprefix = 'i9qrm_';
+	public $dbprefix = 'ljrq9_';
 	public $live_site = '';
-	public $secret = 'FzVxr3fGf8cQscf9';
+	public $secret = 'GUeuuw8cP4FWkx0a';
 	public $gzip = '0';
 	public $error_reporting = 'default';
-	public $helpurl = 'https://help.joomla.org/proxy/index.php?option=com_help&amp;keyref=Help{major}{minor}:{keyref}';
-	public $ftp_host = '';
-	public $ftp_port = '';
+	public $helpurl = 'https://help.joomla.org/proxy/index.php?option=com_help&keyref=Help{major}{minor}:{keyref}';
+	public $ftp_host = '127.0.0.1';
+	public $ftp_port = '21';
 	public $ftp_user = '';
 	public $ftp_pass = '';
 	public $ftp_root = '';
@@ -32,7 +32,7 @@ class JConfig {
 	public $mailonline = '1';
 	public $mailer = 'mail';
 	public $mailfrom = 'kranthisai85@gmail.com';
-	public $fromname = 'Hashing.Company';
+	public $fromname = 'SK INNOVATIONS';
 	public $sendmail = '/usr/sbin/sendmail';
 	public $smtpauth = '0';
 	public $smtpuser = '';
@@ -43,7 +43,7 @@ class JConfig {
 	public $caching = '0';
 	public $cache_handler = 'file';
 	public $cachetime = '15';
-	public $MetaDesc = 'this is the smart home automation project ';
+	public $MetaDesc = 'Smarthome automation website';
 	public $MetaKeys = '';
 	public $MetaTitle = '1';
 	public $MetaAuthor = '1';
@@ -54,8 +54,8 @@ class JConfig {
 	public $sef_suffix = '0';
 	public $unicodeslugs = '0';
 	public $feed_limit = '10';
-	public $log_path = 'C:\\xampp\\htdocs\\smarthome/logs';
-	public $tmp_path = 'C:\\xampp\\htdocs\\smarthome/tmp';
+	public $log_path = '/var/www/html/hashhome/logs';
+	public $tmp_path = '/var/www/html/hashhome/tmp';
 	public $lifetime = '15';
 	public $session_handler = 'database';
 }

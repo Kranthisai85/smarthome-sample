@@ -11,6 +11,9 @@
  */
 define('JOOMLA_MINIMUM_PHP', '5.3.10');
 
+ini_set('display_errors', 'On');
+ini_set('error_reporting', E_ALL);
+
 if (version_compare(PHP_VERSION, JOOMLA_MINIMUM_PHP, '<'))
 {
 	die('Your host needs to use PHP ' . JOOMLA_MINIMUM_PHP . ' or higher to run this version of Joomla!');

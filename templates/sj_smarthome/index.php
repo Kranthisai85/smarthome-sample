@@ -8,6 +8,9 @@
 
 defined ('_JEXEC') or die();
 
+ini_set('display_errors', 'On');
+ini_set('error_reporting', E_ALL);
+
 $doc = JFactory::getDocument();
 $app = JFactory::getApplication();
 
@@ -100,7 +103,7 @@ if ($custom_js = $this->params->get('custom_js'))
         <?php
 
         $theme->head();
-        
+
         $theme->add_css('font-awesome.min.css,owl.carousel.css,font-icomoon.css');
         $theme->add_js('jquery.sticky.js,owl.carousel.js, main.js');
 
@@ -151,7 +154,7 @@ if ($custom_js = $this->params->get('custom_js'))
     <?php $theme->after_body(); ?>
 
     <jdoc:include type="modules" name="debug" style="none" />
-    
+
     <!-- Go to top -->
     <?php if ($this->params->get('goto_top', 0)) : ?>
         <a href="#" class="sp-scroll-up" aria-label="Scroll Up"><span class="fa fa-chevron-up" aria-hidden="true"></span></a>
